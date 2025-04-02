@@ -1,0 +1,9 @@
+:root {
+  --labelssecondary: rgba(58, 58, 60, 0.6);
+  --bodys-body-14-m-font-family: "Inter", Helvetica;
+  --bodys-body-14-m-font-weight: 500;
+  --bodys-body-14-m-font-size: 14px;
+  --bodys-body-14-m-letter-spacing: 0px;
+  --bodys-body-14-m-line-height: 18px;
+  --bodys-body-14-m-font-style: normal;
+}

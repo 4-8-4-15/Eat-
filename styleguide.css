@@ -1,0 +1,9 @@
+:root {
+  --labelsprimary-dark: rgba(255, 255, 255, 1);
+  --labelssecondary-dark: rgba(229, 229, 234, 0.6);
+  --labelsprimary: rgba(3, 3, 2, 1);
+  --labelssecondary: rgba(28, 26, 23, 0.6);
+  --labelstertiary: rgba(25, 23, 21, 0.3);
+  --grayslightswhite: rgba(255, 255, 255, 1);
+  --transparentgray-20: rgba(134, 123, 116, 0.2);
+}
