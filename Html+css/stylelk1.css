@@ -1,0 +1,174 @@
+body {
+    font-family: "Inter", Helvetica;
+    margin: 0;
+    padding: 0;
+}
+h2{
+	position: relative;
+  width: fit-content;
+	padding: 12px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: 18px;
+  white-space: nowrap;
+}
+#newOrderBtn{
+	border: 1px solid red;
+	border-radius: 10px;
+	background-color: white;
+	color: black;
+	font-family: "Inter-Regular", Helvetica;
+}
+#balance{
+	color: red;
+}
+#totalPrice{
+	float: right;
+}
+.balance-text{
+	
+}
+.header {background: white;
+	padding-left: 120px;
+	padding: 16px;
+	color: black;
+	font-family:"Inter", Helvetica;
+	font-size: 40px;
+	top: 0;
+  left: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #8e8e9333;
+}
+.text-one{
+	 position: relative;
+  width: fit-content;
+	padding: 12px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 18px;
+  white-space: nowrap;
+}
+.header-frame-1{
+	display: flex;
+  max-width: 1680px;
+  width: 1200px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  top: 16px;
+  left: 120px;
+}
+.header-frame-2{
+	padding-left: 90%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 28px;
+  position: relative;
+  flex: 0 0 auto;
+}
+.logo{
+  width: 24px;
+  height: 24px;
+  left: 20px;
+	bottom: 10px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar {
+    width: 30%;
+    padding-left: 120px;
+    background: #fff;
+
+}
+.orders {
+    margin-top: 20px;
+}
+.order {
+    padding: 10px;
+    margin-bottom: 10px;
+    background: white;
+}
+button {
+    background: white;
+    color: gray;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+button:hover {
+    color: black;
+}
+.content {
+    width: 65%;
+    padding: 20px;
+    background: #fff;
+}
+.order-form {
+    display: none;
+    padding: 20px;
+    background: white;
+}
+.items {
+    margin: 10px 0;
+}
+.item {
+	margin: 8px;
+	align-items: center;
+  justify-content: flex-start;
+}
+#item1{
+	
+}
+.text-form{
+  display: inline;
+  float: right;
+}
+.item-img{
+		 display: inline;
+}
+input[type="number"]{
+	display: inline;
+	padding: 8px;
+    margin-top: 5px;
+	border: none;
+    border-bottom: 1px solid #ccc;
+	width: 30px;
+}
+input[type="text"]  {
+    padding: 8px;
+    margin-top: 5px;
+	border: none;
+    border-bottom: 1px solid #ccc;
+}
+.balance-section {
+	border: 1px solid red;
+	border-radius: 10px;
+	background-color: white;
+	text-align: center;
+	float: right;
+	color: black;
+	width: 120px;
+	font: 14px "Inter-Regular", Helvetica;
+    margin-right: 120px;
+	margin-top: 20px;
+	margin-bottom: 45px;
+    font-weight: bold;
+}
