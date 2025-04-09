@@ -32,11 +32,31 @@ form { max-width:420px; margin:50px auto; }
   outline:0;
 	border:none;
 }
-lebel{
+label{
 	font-family: 'Inter';
   font-weight:500;
   font-size: 14px;
   line-height: 18px;
+}
+.form-wrapper {
+  max-width: 600px;
+  margin: 0 auto 100px;
+  padding: 32px 16px;
+  background: #f9f9f9;
+  border-radius: 16px;
+}
+
+.beta-invite-text {
+  text-align: center;
+  color: darkgrey;
+  font-size: 18px;
+  margin-bottom: 24px;
+  font-family: 'Inter', sans-serif;
+}
+
+form select {
+  display: block;
+  font-family: 'Inter', sans-serif;
 }
 select{
 	color: #3A3A3C99;
@@ -59,7 +79,6 @@ select{
 p{
 	font: 32px "Inter";
 	color: Black ;  
-	margin: 32px;
 	}
 
 textarea {
@@ -94,7 +113,7 @@ textarea {
 .screen .div {
   background-color: #ffffff;
   width: 1440px;
-  height: 2319px;
+  min-height: 100vh;
   position: relative;
 }
 
@@ -587,10 +606,9 @@ textarea {
 }
 
 .screen .frame-16 {
-  display: flex;
+   display: flex;
   flex-direction: column;
   width: 381px;
-  height: 200px;
   align-items: flex-start;
   gap: 16px;
   padding: 28px;
@@ -613,6 +631,7 @@ textarea {
 .screen .frame-18 {
   display: flex;
   flex-direction: column;
+  height: 360px;
   align-items: flex-start;
   gap: 16px;
   padding: 8px 8px 16px;
